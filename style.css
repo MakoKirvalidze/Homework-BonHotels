@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+}
+
+.container{
+   max-width: 1340px;
+   margin: 0 auto;
+   padding: 0 10px;
+   position: relative;
+   width: 100%;
+}
+
+/* header */
+.header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 32px;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.nav-link {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: left;
+    color: #957554;
+
+}
+
+/* body */
+.title{
+    text-align: center;
+    font-family: Ubuntu,sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 51.71px;
+    color: #957554;
+    margin-bottom: 68px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.rooms-list{
+    width: 1320px;
+    top: 271px;
+    left: 60px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.room-cards{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 60px;
+}
+
+.room-image img{
+    width: 630px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.cards-content{
+    width: 630px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.cards-title{
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45.96px;
+    color: #957554;
+}
+
+.cards-content p{
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45.96px;
+    color: #000000;
+}
+
+.left{
+    text-align: left;
+}
+
+.button{
+    width: 244px;
+    height: 76px;
+    top: 591px;
+    left: 750px;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 27.58px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #DFAA5B;
+    padding: 24px 52px;
+    border-radius: 10px;
+}
+
+.right{
+    text-align: right;
+    
+}
+
+.right-btn{
+    position: absolute;
+    top: 318px;
+    left: 386px;
+}
+
+.forth-section{
+    margin-bottom: 107px;
+}
+
+/* gallery */
+.gallery-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 104px;
+}
+
+.image-1,
+.image-4{
+    width: 792px;
+    height: 500px;
+    border-radius: 10px;   
+}
+
+.image-2,
+.image-3{
+    width: 498px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+/* footer */
+footer {
+    background: #111111;
+    padding-top: 51px;
+    padding-bottom: 159px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 27.58px;
+  }
+  .footer-links {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .footer-text a {
+    display: block;
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 300px;
+    color: #ffffff;
+  }
+  
+  .footer-text p {
+    font-family: Ubuntu, sans-serif;
+    font-size: 24px;
+    font-weight: 500px;
+    color: #ffffff;
+  }
+  
+  .footer-content img {
+    width: 154px;
+    height: 126px;
+  }
